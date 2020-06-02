@@ -17,22 +17,26 @@ Place to track personal projects and status
   * Windows server 2016
   * centos 7
   * ubuntu 18
-2. Support services 1
+2. Support services DNS
 - Deploy DNS services
   * deploy ha dns via powerdns - 1 master, 1 replica
+3. Support services Auth
 - Deploy Auth services
   * Active Directory
+4. Support services Secrets and PKI
 - Deploy Hashicorp Vault cluster
   * Vault for Unseal - 1 node
   * Vault for secrets and pki - 3 node
   * Ha Proxy for load balancing - 2 node
+5. Support services Logging
 - Deploy ELK Clusters
   * Ha deployment with load balancing - 4 node
+6. Support services Metrics
 - Deploy Graphite Clusters
   * load balanced and routed - 2 node
+7. Support services Managed Server
 - Deploy managed server
   * DNS registered at provisioning
   * Metrics sent to graphite
   * logs sent to ELK
   * Bound to domain in appropiate OU
-  * 
