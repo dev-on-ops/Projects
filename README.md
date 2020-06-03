@@ -44,7 +44,7 @@ Place to track personal projects and status
   * load balanced and routed - 2 node
 7. Support Services Monitoring
 - Deploy Zabbix instance
-8. Support Services DCIM/IPAM
+8. Support Services DCIM IPAM
 - Deploy netbox
 - Configure IP assignment
 - Register assets
