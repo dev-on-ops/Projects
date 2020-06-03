@@ -44,7 +44,11 @@ Place to track personal projects and status
   * load balanced and routed - 2 node
 7. Support Services Monitoring
 - Deploy Zabbix instance
-8. Support services Managed Server
+8. Support Services DCIM/IPAM
+- Deploy netbox
+- Configure IP assignment
+- Register assets
+9. Support services Managed Server
 - Deploy managed server
   * DNS registered at provisioning
   * Metrics sent to graphite
