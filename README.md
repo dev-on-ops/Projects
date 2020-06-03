@@ -24,6 +24,10 @@ Place to track personal projects and status
 - Deploy Auth services
   * Active Directory
 4. Support services Secrets and PKI
+- Deploy Offline Root and Intermediate
+  * CRL server
+  * offline root
+  * Online Intermediate
 - Deploy Hashicorp Vault cluster
   * Vault for Unseal - 1 node
   * Vault for secrets and pki - 3 node
@@ -34,9 +38,13 @@ Place to track personal projects and status
 6. Support services Metrics
 - Deploy Graphite Clusters
   * load balanced and routed - 2 node
-7. Support services Managed Server
+7. Support Services Monitoring
+- Deploy Zabbix instance
+8. Support services Managed Server
 - Deploy managed server
   * DNS registered at provisioning
   * Metrics sent to graphite
   * logs sent to ELK
   * Bound to domain in appropiate OU
+  * PKI Trust chain installed
+  * Monitored for basic health checks
