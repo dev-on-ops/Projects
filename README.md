@@ -20,6 +20,9 @@ Place to track personal projects and status
 2. Support services DNS
 - Deploy DNS services
   * deploy ha dns via powerdns - 1 master, 1 replica
+  * deploy dns recursors - 2 node
+  * deploy DNS Load balancers - 2 node
+  * Programmatic update of records
 3. Support services Auth
 - Deploy Auth services
   * Active Directory
