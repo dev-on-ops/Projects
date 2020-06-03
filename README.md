@@ -4,6 +4,7 @@ Place to track personal projects and status
 # Infrastruture
 0. Lab resources
 - lab host
+- gateway server
 - dns server
 - management server
 - pxe boot server
