@@ -1,0 +1,15 @@
+Progress:
+- Role for All in One pxe host works as expected, Role for distributed still needs to be tested a with provisioning to ensure it works as expected.
+- vmprovision role works but needs some more attention around disk drive configuration and per os changes to account for issues with customization (ansible regression for windows custimization removing - characters from host names)
+To Do:
+- work on pxe role and get test machine pxe booting
+- perform windows template deployment in vm provision
+- update vm provision to support pxe provision
+- rename this section to just "Provisioning" doing this because regardless of method present want this to be inclusive of how you spin up resources.
+- create examples directory for example inventory and playbook.
+- support more operating systems.
+- Define some standards for ansible varialbes, inventory, playbooks and general syntax. indentation and naming standards primarily so code is consistent.
+What to work on next:
+- pxe install to a vm using the playbook, validate os installs unattended, can reach os over network at the end of the process
+- write clean up component of playbook to make network boot default to local boot after playbook run
+- write post os requirements like os rename for templates or post install validation steps
